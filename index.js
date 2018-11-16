@@ -33,7 +33,7 @@ app.post('/hello',urlencodedParser,function(req, res){
 });
 
 app.get('/',function(req,res){
- res.send('welcome');
+ res.render('welcome');
 });
 
 app.get('/hello',function(req, res){
